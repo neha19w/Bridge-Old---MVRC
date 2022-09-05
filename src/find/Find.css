@@ -1,0 +1,74 @@
+.custom-dialog-find {
+  border: none;
+  border-radius: 0px;
+  width: 92vw !important; 
+  max-width: 92vw !important;
+  position: absolute !important;
+  bottom: 3.2% !important;
+  left: 4% !important;
+  right: 5% !important;
+}
+.custom-dialog-find2 {
+  border: none;
+  border-radius: 0px;
+  width: 92vw !important; 
+  max-width: 92vw !important;
+  position: absolute !important;
+  bottom: 8.5% !important;
+  left: 4% !important;
+  right: 5% !important;
+}
+.modal-height {
+  background-color: #312f2f !important;
+  width: 92vw !important;
+  max-width: 92vw !important;
+}
+.modal {
+  --bs-modal-padding: 0rem !important;
+}
+.find-body {
+  display: flex;
+  background-color: #312f2f;
+  height: 43px !important;
+}
+.search-container {
+  width: 93%;
+  background: 3a3939;
+  border: none;
+  cursor: pointer;
+}
+.f-text {
+  display: flex;
+  width: 85%;
+  color: white;
+}
+.f-search {
+  width: 100%;
+  color: black;
+  background-color: white;
+  height: 100%;
+}
+.f-text p {
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.f-icon {
+  border: 0.5px solid white;
+  width: 5%;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+.f-icon-img {
+  width: 50%;
+}
+@media (max-width: 800px) {
+  .custom-dialog-find {
+    bottom: 83px !important;
+    left: 5px !important;
+  }
+ 
+  .f-icon {
+    width: 11% !important;
+  }
+}

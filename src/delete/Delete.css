@@ -1,0 +1,71 @@
+.delete-wrap {
+  width: 350px !important;
+  height: 350px;
+  padding: 0px;
+  margin: auto;
+}
+.delete-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  align-items: stretch;
+  height: 348px;
+  padding: 10px;
+  --padding: 10px;
+  border: 1px #d2d2d2 solid;
+  border-radius: 12px;
+  box-shadow: inset 0 0 0 var(--padding) #f1f1f1, 2px 2px 2px #cac5c5;
+}
+.delete-content {
+  height: 350px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 1px solid #d2d2d2;
+  border-bottom: 1px solid #bbbbbb;
+}
+.delete-body h4 {
+  line-height: 0.5;
+}
+.delete-header-text {
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 2px;
+  letter-spacing: -1px;
+}
+.modal-backdrop {
+  background-color: transparent !important;
+}
+.delete-text{
+    font-weight: 600;
+}
+.delete-c-btn {
+  border: 0.1px solid white !important;
+  border-radius: 0px !important;
+  background-color: #312f2f !important;
+  color: white;
+}
+.yes-btn{
+    background-color: #25E42A;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-weight: 400;
+    border: 2px solid #908e8e;
+}
+.no-btn{
+    background-color: #FC0D1B;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-weight: 400;
+    border: 2px solid #908e8e;
+}
+.modal {
+  --bs-modal-padding: 0rem !important;
+  --bs-modal-border-width: 0px !important;
+}
+.delete-text::selection {
+  background: green !important;
+  color: yellow !important;
+}

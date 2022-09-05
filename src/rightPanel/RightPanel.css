@@ -1,0 +1,31 @@
+
+.right-btns {
+  padding: 0;
+  margin: 0;
+  right: 0;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right-btns:not(:hover) {
+  border: none;
+}
+.right-btns:hover {
+  outline: none;
+  border: none;
+}
+
+.icon-pic {
+  width: 28px;
+}
+
+.icon-text {
+  color: white;
+  font-size: 9px;
+}
+
+
+@media (max-width:800px){
+
+}

@@ -1,0 +1,82 @@
+.files-wrap {
+  padding: 0px;
+  width: 600px !important;
+}
+
+.files-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  align-items: stretch;
+  height: 550px;
+  padding: 10px;
+  --padding: 10px;
+  border: 1px #d2d2d2 solid;
+  border-radius: 12px;
+  box-shadow: inset 0 0 0 var(--padding) #f1f1f1, 2px 2px 2px #cac5c5;
+}
+.files-body h4 {
+  line-height: 0.6;
+}
+.files-content {
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 1px solid #d2d2d2;
+  border-bottom: 1px solid #bbbbbb;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.files-btn {
+  /* bottom: 2; */
+  margin-bottom: 5px;
+  background-color: #312f2f !important;
+  height: 50px !important;
+  border: 0.1px solid white !important;
+}
+.files-active {
+  background-color: #4c838f !important;
+  height: 50px !important;
+  border: 0.1px solid white !important;
+  margin-bottom: 5px;
+}
+
+.modal {
+  --bs-modal-padding: 0rem !important;
+}
+.files-content1 {
+  height: 350px;
+}
+.files-feed-btn {
+  width: 20px;
+  height: 20px;
+}
+.files-feed-btn img{
+  margin-bottom: 5px;
+}
+.files-content1 span{
+  margin-bottom: 10px;
+}
+.files-btn p{
+  margin-top: -7px;
+    color: white;
+    font-size: 12px;
+}
+@media (min-width: 992px) {
+  .modal-lg,
+  .modal-xl {
+    --bs-modal-width: 680px !important;
+  }
+}
+@media (max-width: 440px) {
+  #myTabContent {
+    top: 25%;
+    padding: 5px;
+    height: 330px;
+    position: absolute;
+  }
+}

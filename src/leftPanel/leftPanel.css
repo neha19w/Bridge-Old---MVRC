@@ -1,0 +1,34 @@
+.icon{
+    color: #f6f174;
+     font-size:x-large;
+    }
+.left-btns{
+    padding: 0;
+    margin: 0;
+    left: 0;
+    border: none; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left-btns:not(:hover){
+    border: none;
+}
+.left-btns:hover{
+    outline: none;
+    border: none;
+}
+.left-text{
+    color:#fff;
+    font-size: 10px;
+}
+.menu-pics{
+    width: 23px;
+
+}
+
+@media (max-width:800px){
+ .btn{
+    padding-top: -1%!important;
+ }
+}

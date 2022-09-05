@@ -1,0 +1,207 @@
+.connect-wrap{
+  padding: 0px;
+  width: 600px !important;
+}
+.connect-accordion-collapse {
+  border: 0;
+}
+.connect-accordion-button {
+  padding: 0px;
+  font-weight: bold;
+  border: 0;
+  font-size: 22px !important;
+  font-weight: 400;
+  font-family: Arial Unicode MS, Arial, sans-serif !important;
+  color: #333333;
+  text-align: left;
+  /* border-bottom: 1px solid #ddd; */
+  border-radius: 0% !important;
+  background-color: white;
+}
+.connect-accordion-text {
+  /* font-size: 30px; */
+}
+.connect-accordion-button:focus {
+  box-shadow: none !important;
+  border: none !important;
+}
+.connect-accordion-button:not(.collapsed) {
+  background: none !important;
+  color: #000;
+}
+.connect-accordion-body {
+  padding: 3px;
+  background-color: transparent;
+  width: max-content;
+}
+.connect-accordion-body li {
+  font-family: Arial Unicode MS, Arial, sans-serif;
+  font-size: 22px;
+  margin-left: 20px;
+  cursor: pointer;
+  
+}
+.connect-accordion-button::before {
+  width: auto;
+  /* height: auto; */
+  content: "+";
+  font-size: 15px;
+  background-image: none;
+  font-weight: 100;
+  color: #000;
+  transform: translateY(-4px);
+  font-weight: bold;
+  margin: 6px 10px -5px 0px;
+  border: 2px solid darkslategray;
+  padding: 0px 3px;
+}
+.connect-accordion-button:not(.collapsed)::before {
+  width: auto;
+  /* height: auto; */
+  background-image: none;
+  content: "-";
+  margin: 6px 10px 3px 0px;
+  font-size: 15px;
+  transform: translate(-5px, -4px);
+  transform: rotate(0deg);
+  padding: 0px 4px !important;
+}
+
+.connect-accordion-body ul {
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+.connect-accordion {
+  margin-top: 10px;
+  --bs-accordion-bg: #fff;
+  --bs-accordion-border-color: var(--bs-border-color);
+  --bs-accordion-btn-bg: var(--bs-accordion-bg);
+  --bs-accordion-btn-icon: url("") !important;
+  --bs-accordion-btn-active-icon: url("") !important;
+  --bs-accordion-border: none !important;
+  --bs-accordion-active-color: #000 !important;
+  --bs-accordion-btn-padding-y: 0 !important;
+  --bs-accordion-transition: none !important;
+  --bs-accordion-active-bg: transparent !important;
+  --bs-accordion-active-outline: transparent !important;
+  --bs-accordion-body-padding-x: 0 !important;
+  --bs-accordion-body-padding-y: 0 !important;
+  --bs-accordion-btn-focus-border: none !important;
+  --bs-accordion-btn-focus-outline: none !important;
+}
+.connect-accordion-header {
+  margin-bottom: -10px !important;
+}
+.connect-accordion-header:focus {
+  background-color: transparent !important;
+  outline: none !important;
+}
+.connect-accordion-item {
+  border: none !important;
+}
+.connect-accordion-item:active {
+  border: none !important;
+  outline: none !important;
+}
+
+.connect-wrap {
+  padding: 0px;
+  width: 600px !important;
+}
+
+.connect-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  align-items: stretch;
+  height: 550px;
+  padding: 10px;
+  --padding: 10px;
+  border: 1px #d2d2d2 solid;
+  border-radius: 12px;
+  box-shadow: inset 0 0 0 var(--padding) #f1f1f1, 2px 2px 2px #cac5c5;
+}
+.connect-body h4 {
+  line-height: 0.6;
+}
+.connect-content {
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 1px solid #d2d2d2;
+  border-bottom: 1px solid #bbbbbb;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.connect-close-btn {
+  /* bottom: 2; */
+  margin-bottom: 5px;
+  background-color: #312f2f !important;
+  height: 50px !important;
+  border: 0.1px solid white !important;
+}
+.demo-close-btn:active {
+  background-color: #4c838f;
+}
+
+.modal {
+  --bs-modal-padding: 0rem !important;
+}
+.connect-content-parent {
+  height: 350px;
+  width: 570px;
+  overflow: hidden !important;
+}
+.connect-content-child {
+  width: 100%;
+  height: 99%;
+  overflow-y: auto;
+  overflow-x: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.connect-sub-text {
+  margin-left: 10%;
+  font-size: 22px;
+  font-weight: 500;
+}
+.connect-text-input {
+  height: 40px;
+  margin-bottom: 4px;
+}
+
+.connect-room {
+  margin-left: 10%;
+  font-size: 22px;
+}
+
+@media (min-width: 992px) {
+  .modal-lg,
+  .modal-xl {
+    --bs-modal-width: 680px !important;
+  }
+}
+@media (max-width: 440px) {
+  .connect-wrap{
+    padding: 0px;
+    width: 380px !important;
+  }
+
+  .connect-text-input{
+    width: 77% !important;
+    margin-left: 22px;
+  }
+  .connect-content-child {
+    width: 60%;
+    height: 99%;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}

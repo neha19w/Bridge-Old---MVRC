@@ -1,0 +1,101 @@
+.notes-dialog {
+  position: absolute !important;
+  right: 57px !important;
+  width: 14% !important;
+  top: 0;
+  /* margin-right: 44px !important; */
+  /* height: 95vh !important; */
+  padding: 0px;
+}
+
+.notes-body {
+  /* height: 95vh !important; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  align-items: stretch; */
+  /* height: 360px; */
+  /* box-shadow: inset 0 0 0 var(--padding) #f1f1f1; */
+  border-left: 0.5px solid #312f2f;
+}
+.notes-content1-parent {
+  height: 60vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.notes-content1-child {
+  height: 59vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.index-table {
+  padding-left: 5px;
+  padding-top: 6px;
+}
+.notes-content2-parent {
+  height: 36vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.notes-content2-child {
+  height: 35vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+.notes-text {
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #312f2f;
+  color: white;
+  font-weight: 600;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 0% !important;
+}
+.modal-backdrop {
+  background-color: transparent !important;
+}
+.notes-close-btn {
+  bottom: 0;
+  border-radius: 0px !important;
+}
+.modal {
+  --bs-modal-padding: 0rem !important;
+}
+
+@media (min-width: 800px) {
+  .custom-dialog {
+    right: 0px !important;
+    top: -661px;
+    width: 40% !important;
+    margin: 0px !important;
+  }
+  .notes-content1-parent{
+    height: 50vh;
+    top: 0;
+  }
+  .notes-content2-child {
+    height: 28vh;
+  }
+  .notes-text {
+    padding-top: 1px;
+  }
+}

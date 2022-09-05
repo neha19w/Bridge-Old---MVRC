@@ -1,0 +1,58 @@
+.custom-dialog-issues {
+  border: none;
+  border-radius: 0px;
+  width: 92vw !important;
+  max-width: 92vw !important;
+  position: absolute !important;
+  bottom: 3% !important;
+  left: 4% !important;
+  right: 5% !important;
+}
+.custom-dialog-issues2 {
+  border: none;
+  border-radius: 0px;
+  width: 92vw !important;
+  max-width: 92vw !important;
+  position: absolute !important;
+  bottom: 8.5% !important;
+  left: 4% !important;
+  right: 5% !important;
+}
+.modal-height {
+  background-color: #312f2f !important;
+  width: 92vw !important;
+  max-width: 92vw !important;
+}
+.issues-body {
+  display: flex;
+  background-color: #312f2f;
+  height: 43px !important;
+}
+.t-icon {
+  border: 0.5px solid white;
+  width: 5%;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+.t-icon-img {
+  width: 50%;
+}
+.i-icon {
+  border: 0.5px solid white;
+  border-right: none !important;
+  width: 15%;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+@media (max-width: 800px) {
+  .custom-dialog-issues {
+    max-width: 930px !important;
+    bottom: 83px !important;
+    left: 5px !important;
+  }
+  .t-icon {
+    width: 11% !important;
+  }
+}
